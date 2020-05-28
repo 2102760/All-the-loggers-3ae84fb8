@@ -4,6 +4,11 @@ class MyLogger
 {
     public $origin = 'not set';
 
+    function __construct($origin)
+    {
+        $this->origin = $origin;
+    }
+
     public function log($message, $type)
     {
         switch ($type) {
