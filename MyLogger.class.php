@@ -2,7 +2,7 @@
 
 class MyLogger
 {
-    public $origin = 'not set';
+    private $origin = 'not set';
 
     function __construct($origin)
     {
